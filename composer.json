@@ -1,0 +1,42 @@
+{
+    "name": "gonzalo2683/mail-template-kit",
+    "description": "Make email templates",
+    "keywords": [
+        "gonzalo2683",
+        "mail-template-kit"
+    ],
+    "homepage": "https://github.com/gonzalo2683/mail-template-kit",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Gonzalo Guevara",
+            "email": "gonzarock@yahoo.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gonzalo2683\\MailTemplateKit\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gonzalo2683\\MailTemplateKit\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
